@@ -1,0 +1,100 @@
+QUESTION 1 : var ou let
+
+QUESTION 2 : var permet d'avoir une portée global même en dehors d'une fonction tandis que let est limité a son bloc
+
+QUESTION 3 : undefined veux dire que la var a été déclaré sans assignation de valeur, null veux dire que la valeur affecté représente "Aucune valeur"
+
+QUESTION 4 : Pour concaténer donc et donc relier plusieurs chaines entre-elles, on utilise le '+' ( ex let Max = age + taille)
+
+QUESTION 5 : Parsint pour avoir un nombre retourné sans décimal
+
+QUESTION 6 : function X(age){
+return "Tu as" + age
+}
+
+QUESTION 7 : Une fonction créée avec une déclaration de fonction peut être appelée avant même qu’elle ait été déclarée car l’interpréteur recherche les variables et les déclaration de fonction avant de parcourir la suite de votre script. 
+
+L’expression de fonction est une fonction crée, stockée et traitée comme une variable. Il n’y a généralement pas de nom pour les expressions de fonction
+
+QUESTION 8 : Pour appeler une fonction, on doit utiliser son nom suivi de parenthèses.
+
+Exemple : function saluer() {
+  console.log('Bonjour!');
+}
+
+saluer(); // Affiche "Bonjour!"
+
+QUESTION 9 : Si la fonction a des arguments, on doit les passer entre les parenthèses.
+
+Exemple : function saluer(prenom) {
+  console.log(`Bonjour, ${prenom}!`);
+}
+
+saluer('Marie'); // Affiche "Bonjour, Marie!"
+
+QUESTION 10 : La variable de la boucle est initialisée (par exemple, var i = 0).
+La condition est vérifiée (par exemple, i < 10). Si la condition est vraie, le code à l'intérieur de la boucle s'exécute. Si la condition est fausse, la boucle se termine.
+Le code à l'intérieur de la boucle s'exécute.
+La variable de boucle est incrémentée (par exemple, i++).
+La condition est vérifiée à nouveau. Si la condition est vraie, le processus recommence. Si la condition est fausse, la boucle se termine.
+
+Exemple : var i;
+
+for (i = 1; i <= 10;) {
+  console.log(i);
+  i++;
+}
+
+QUESTION 11 : Même chose que pour la boucle for : la condition est vérifiée. Si la condition est vraie, le code à l'intérieur de la boucle s'exécute. Si la condition est fausse, la boucle se termine.
+Le code à l'intérieur de la boucle s'exécute.
+La condition est vérifiée à nouveau. Si la condition est vraie, le processus recommence. Si la condition est fausse, la boucle se termine.
+
+Exemple : var i = 1;
+
+while (i <= 10) {
+  console.log(i);
+  i++;
+}
+
+Il faut juste faire attention à ne pas créer une boucle infini si la condition ne devient jamais fausse.
+
+QUESTION 12 :  Do permet d’exécuter une instruction et de répéter cette action tant qu’une expression logique controlée par while est vraie.
+ 
+Exemple : do {
+    document.write(i + " ");
+    i++;
+} while (i < 10);
+
+QUESTION 13 : L'instruction break termine la boucle en cours 
+
+QUESTION 14 : L'instruction continue permet d'interrompre également le déroulement d'une boucle à l'exception qu'elle ne la termine pas immédiatement mais la court-circuite.. C'est-à-dire qu’elle passe à l’étape suivante du code.
+
+QUESTION 15 : == est utilisé pour la comparaison entre deux variables quel que soit le type de la variable.
+
+=== est utilisé pour une comparaison stricte entre deux variables c’est à dire que cela vérifiera le type et la valeur des deux variables, ce qui signifie qu’il vérifiera le type et comparera les deux valeurs.
+
+En général, il est recommandé d'utiliser l'opérateur === pour comparer des valeurs, car ça effectue une comparaison plus précise et évite les surprises liées à la conversion de type. 
+
+QUESTION 16 :  l'opérateur ternaire est un opérateur de condition qui permet de définir une valeur en fonction d'une condition.
+
+QUESTION 17 : on ouvre avec des crochets / Exemple let voiture = ['audi','mercedes]
+
+QUESTION 18 : En reprenant l'exemple d'avant : let voiture = ['audi','mercedes], pour accéder à audi on coderai -> console.log(voiture[0]);
+ Le éléments d'un tableau commencent à 0 
+
+QUESTION 19 : Push est utilisée pour ajouter un élément à la fin d'un tableau.
+
+Exemple : let tableau = ['pomme', 'banane', 'mangue'];
+
+tableau.push('orange'); // le tableau devient ['pomme', 'banane', 'mangue', 'orange']
+
+tableau.push('kiwi', 'fraise'); // le tableau devient ['pomme', 'banane', 'mangue', 'orange', 'kiwi', 'fraise']
+
+QUESTION 20 : La méthode pop() supprime le dernier élément d'un tableau et retourne cet élément. Cette méthode modifie la longueur du tableau.
+
+QUESTION 29 : Les objets sont crées également être créés en utilisant la méthode Object.create()
+
+QUESTION 33 : Java est un langage de programmation qui a été conçu pour être utilisé sur des appareils tels que les téléphones mobiles, les ordinateurs et les serveurs. JavaScript est un langage de programmation orienté objet qui a été conçu pour être utilisé principalement dans les navigateurs web.
+
+
+ 
